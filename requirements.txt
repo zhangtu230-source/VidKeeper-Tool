@@ -1,0 +1,11 @@
+# 视频批量处理工具 v2.7 依赖列表
+# Python 3.9+（建议 3.9 - 3.12）
+
+# GUI 拖拽支持（必需）
+tkinterdnd2==0.6.2
+
+# 打包 EXE 用（仅开发需要）
+pyinstaller>=5.0
+
+# 外部依赖（需单独安装并加入系统 PATH）
+# ffmpeg / ffprobe  https://ffmpeg.org/download.html
